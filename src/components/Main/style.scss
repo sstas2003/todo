@@ -1,0 +1,15 @@
+.main{
+  overflow: auto;
+  border: 1px solid #CCCCCC;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  >.content{
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+}

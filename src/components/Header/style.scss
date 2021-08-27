@@ -1,0 +1,15 @@
+.header {
+  height: 50px;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  >.center{
+    flex: 1;
+  }
+  >.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+  }
+}

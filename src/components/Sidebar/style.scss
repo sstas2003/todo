@@ -1,0 +1,31 @@
+.sidebar{
+  overflow: auto;
+  border-right: 1px solid #CCCCCC;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  >.item{
+    padding: 5px;
+    transition: margin ease 100ms;
+    text-decoration: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    color: black;
+    &:hover{
+      margin-right: 5px;
+      margin-left: -5px;
+      transition: margin ease 100ms;
+    }
+  }
+  >.item-select{
+    padding: 5px;
+    transition: margin ease 100ms;
+    text-decoration: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background-color: #8383ff;
+    color: white;
+  }
+}

@@ -1,0 +1,43 @@
+.list-wrapper{
+  flex: 1;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  >.filters-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    >select{
+      width: 100%;
+    }
+    >input{
+      width: 100%;
+    }
+    >button{
+      width: 50%;
+    }
+  }
+ >.table-wrapper{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   >table{
+     >tbody{
+       >tr{
+         cursor: pointer;
+         transition: outline ease .2s;
+         outline: 1px solid #BBBBBB00;
+         &:nth-child(even) {background-color:#EEE;}
+         &:hover{
+           transition: outline ease-in-out .2s;
+           outline: 1px solid #BBB;
+         }
+       }
+     }
+   }
+ }
+}
