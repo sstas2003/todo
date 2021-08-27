@@ -24,7 +24,7 @@ function Table({
     if (loading === false) {
       setPages(Math.ceil(data.length / itemsPerPage));
     }
-  }, [loading, itemsPerPage]);
+  }, [loading, itemsPerPage, data]);
 
   return loading ? (
     <div>Loading...</div>
