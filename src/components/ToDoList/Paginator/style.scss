@@ -1,0 +1,16 @@
+.table-paginator{
+  border-top: 1px solid #CCCCCC;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  >.table-paginator-item{
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+    outline: 1px solid #CCC;
+    &.selected{
+      outline: 1px solid #000;
+    }
+  }
+}

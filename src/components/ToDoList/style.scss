@@ -29,11 +29,11 @@
      >tbody{
        >tr{
          cursor: pointer;
-         transition: outline ease .2s;
+         transition: outline ease .1s;
          outline: 1px solid #BBBBBB00;
          &:nth-child(even) {background-color:#EEE;}
          &:hover{
-           transition: outline ease-in-out .2s;
+           transition: outline ease-in-out .1s;
            outline: 1px solid #BBB;
          }
        }

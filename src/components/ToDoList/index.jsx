@@ -64,6 +64,7 @@ function ToDoList() {
       </div>
       <div className={"table-wrapper"}>
         <Table
+          paginator={{ perPage: [1, 10, 20, 40], select: 10 }}
           loading={isLoading}
           data={newList}
           columns={[
